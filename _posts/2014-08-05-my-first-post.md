@@ -57,7 +57,7 @@ parts and loss of future income?
   Or maybe I'd still be lost in the big bad coding forest if nothing happened
 to my truck.  In any case, blaming the thief makes me feel better!
 
-  Oh yeah, one more thing.  The new catalytic converter I bought, it doesn't fit
+  Oh yeah, one more thing.  That new catalytic converter I bought, it doesn't fit
 my truck.
 
 To be continued............
