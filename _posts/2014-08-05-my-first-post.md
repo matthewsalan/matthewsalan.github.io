@@ -1,4 +1,5 @@
 ---
+cover: AS.jpg
 layout: post
 title:  "My first post"
 date:   2014-08-05 11:17
@@ -12,7 +13,7 @@ Catalytic Converters and Being Lost In The Woods
 and how they are connected.  Like most things in life it's a long story, but one
 that I am going to share with you.
 
-  I woke this past Saturday morning and got into my truck to drive to go to my
+  I woke up this past Saturday morning and got into my truck to drive to go to my
 new school, The Iron Yard.  I am taking their back-end web development course,
 focusing on Ruby and Ruby on Rails.  Coding, software engineering, web development,
 which ever you want to cal it, is all brand new to me.  To say that I am

@@ -1,0 +1,12 @@
+# Site settings
+title: Alan with two A's
+email: matthewsa1320@gmail.com
+description: 
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: Alan_Matthews_
+github_username:  matthewsalan
+
+# Build settings
+markdown: kramdown
+permalink: pretty
