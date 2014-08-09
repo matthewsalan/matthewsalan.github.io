@@ -24,8 +24,7 @@ truck.
 I've been a car guy all of my life, even spent my time doing some maybe not so
 legal drag racing, so to a certain extent I am used to hearing cars with little
 in the way of muffling.  Hearing the roaring exhaust sound emanating from truck
-was not what I expected to hear and sent me into a panic.  I quickly turned off
-the engine and jumped out of the cab.  I started to go look under the hood but
+was not what I expected to hear and sent me into a panic.  I quickly turned offthe engine and jumped out of the cab.  I went to go look under the hood but
 thought better and looked underneath my truck at the exhaust.  There I found
 a section of the exhaust pipe cut out and realized that someone had made off with my
 catalytic converter.  
