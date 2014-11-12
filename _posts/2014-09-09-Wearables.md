@@ -1,5 +1,5 @@
 ---
-cover: compin.jpg
+image: /images/compin.jpg
 layout: post
 title:  "Wearables: I'll Pass For Now"
 date:   2014-09-09 11:57PM

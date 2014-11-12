@@ -1,5 +1,5 @@
 ---
-cover: AS.jpg
+image: /images/AS.jpg
 layout: post
 title:  "My first post"
 date:   2014-08-05 11:17
