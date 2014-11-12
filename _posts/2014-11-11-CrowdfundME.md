@@ -4,7 +4,7 @@ title:  "CrowdfundME!"
 date:   2014-11-11 20:37:25
 categories: jekyll update
 tags: regular
-image: /images/IMG_0357.jpg
+image: /images/IMG_0357.JPG
 ---
 
 Dear loyal readers,
