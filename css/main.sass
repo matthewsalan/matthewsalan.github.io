@@ -36,6 +36,45 @@ body
   -o-font-feature-settings: "liga", "dlig"
   font-feature-settings: "liga", "dlig"
 
+.portfolio-title
+  margin: 0
+  padding: $rs*5.25 $rs $rs/2
+  font-size: 50px
+  text-align: center
+  font-weight: 700
+  letter-spacing: -2px
+  outline: 0
+  line-height: 50px
+  word-break: break-word
+  color: #333
+.port-image
+  height: 450px
+  position: relative
+  overflow: hidden
+  background-color: #000
+  .port-teaser-image
+    background-size: cover
+    background-position: center
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 1
+    text-indent: -9999px
+  
+
+.examples
+  margin: 0
+  width: 100%
+  max-width: 640px
+  padding: $rs*5.25 $rs $rs/2
+  a
+    text-decoration: none
+  h3
+    margin: 0
+    padding-bottom: 15px
+
 .logo-readium
   position: fixed
   left: 10px

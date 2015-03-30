@@ -1,0 +1,70 @@
+---
+layout: default
+---
+  <div class="port-image">
+      <div class="port-teaser-image" {% if site.cover %}style="background-image: url(/images/startup.jpeg)"{% endif %}>
+          Teaser Image
+      </div>
+  </div>
+<script>
+    (function ($) {
+        "use strict";
+
+        $(document).ready(function(){
+
+            var $window = $(window),
+                $image = $('.port-teaser-image');
+            $window.on('scroll', function() {
+                var top = $window.scrollTop();
+
+                if (top < 0 || top > 1500) { return; }
+                $image
+                    .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+                    .css('opacity', 1-Math.max(top/700, 0));
+            });
+            $window.trigger('scroll');
+
+        });
+
+    }(jQuery));
+</script>
+    <h1><div class="portfolio-title">My Portfolio</h1></div>
+      <!-- <div class="custom-links-portfolio">
+        <a class="icon-github-port" href="https://github.com/matthewsalan">
+          <i class="fa fa-github"></i>
+        </a> -->
+      <!-- </div>    -->
+      
+      <div class="examples">
+        <h3>The Farmers Market</h3><div class="farmerslogosmall"><img src="/images/farmerslogosmall.png"></div>
+        <a href="http://development.farmersmarket.divshot.io/#/">View Live</a> |
+        <a href="https://github.com/matthewsalan">View Code</a>
+          <br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+        <br />
+        <h3>Genius Sports</h3><div class="gslogo"><img src="/images/gs-sports.png"></div>
+        <a href="https://github.com/matthewsalan">View Code</a>
+        <br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>      
+
+      <div class="bottom-closer">
+      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div>
+    </div>
