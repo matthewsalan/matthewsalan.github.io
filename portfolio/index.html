@@ -29,26 +29,13 @@ layout: default
 
     }(jQuery));
 </script>
+  
   <div class="portfolio-title">
-    <h1>My Portfolio</h1>
+    <h1>Portfolio</h1>
   </div>
-      <div class="custom-links-portfolio">
-        <a class="icon-github-port" href="https://github.com/matthewsalan" target="_blank">
-          <i class="fa fa-github"></i>
-        </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        <a class="icon-linkedin-port" href="http://www.linkedin.com/pub/alan-matthews/22/16a/168/en" target="_blank">
-          <i class="fa fa-linkedin"></i>
-        </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-          <a href="mailto:matthewsa1320@gmail.com">
-            <i class="fa fa-paper-plane"></i>
-          </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
 
-      </div> 
     <div class="about-title">
-      <h2>About me</h2>  
+      <h2>About Me</h2>  
     </div>        
       <div class="about-summary">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -58,6 +45,28 @@ layout: default
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+      </div>
+
+      <div class="contact-info">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="custom-links-portfolio">
+        <span title="Github"><a class="icon-github-port" href="https://github.com/matthewsalan" target="_blank">
+          <i class="fa fa-github"></i>
+        </a></span>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        <span title="Linkedin"><a class="icon-linkedin-port" href="http://www.linkedin.com/pub/alan-matthews/22/16a/168/en" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a></span>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        <span title="Email Me"><a class="email-icon" href="mailto:matthewsa1320@gmail.com">
+          <i class="fa fa-paper-plane"></i>
+        </a></span>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        <span title="My Resume"><a class="resume-icon" href="/resume/">
+          <i class="fa fa-file-text-o"></i>
+        </a></span>
       </div>
 
       <div class="examples">
@@ -163,15 +172,37 @@ layout: default
                 <span title="Spotify"><img src="/images/spotify.png" alt="Spotify"></span>
             </div>
           </p>         
+      </div>
+
+      <div class="contact-info-footer">
+        <h2>Contact</h2>
+      
+        <div class="custom-links-portfolio-footer">
+          <span title="Github"><a class="icon-github-port" href="https://github.com/matthewsalan" target="_blank">
+            <i class="fa fa-github"></i>
+          </a></span>
+              &nbsp;&nbsp;·&nbsp;&nbsp;
+          <span title="Linkedin"><a class="icon-linkedin-port" href="http://www.linkedin.com/pub/alan-matthews/22/16a/168/en" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a></span>
+              &nbsp;&nbsp;·&nbsp;&nbsp;
+          <span title="Email Me"><a class="email-icon" href="mailto:matthewsa1320@gmail.com">
+            <i class="fa fa-paper-plane"></i>
+          </a></span>
+              &nbsp;&nbsp;·&nbsp;&nbsp;
+          <span title="My Resume"><a class="resume-icon" href="/resume/">
+            <i class="fa fa-file-text-o"></i>
+          </a></span>
+        </div>
       </div>      
 
       <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
-        Image
+        <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
+          Image
+        </div>
+        <div class="inner">
+          <h1 class="blog-title">{{ site.title }}</h1>
+          <h2 class="blog-description">{{ site.description }}</h2>
+          <a href="/" class="btn">Back to Overview</a>
+        </div>
       </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="/" class="btn">Back to Overview</a>
-      </div>
-    </div>

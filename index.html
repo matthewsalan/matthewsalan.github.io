@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="teaserimage">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
+    <div class="teaserimage-image" {% if site.cover %}style="background-image: url(/images/sublime.png)"{% endif %}>
         Teaser Image
     </div>
 </div>
@@ -16,11 +16,15 @@ layout: default
     <!-- <h2 class="blog-description">{{ site.description }}</h2> -->
     <div class="custom-links">
       {% for social in site.social %}
-        <a class="icon-{{ social.icon }}" href="{{ social.url }}" target="_blank">
+        <!-- <a class="icon-{{ social.icon }}" href="{{ social.url }}" target="_blank">
           <i class="fa fa-{{ social.icon }}"></i>
         </a>
-        &nbsp;&nbsp;·&nbsp;&nbsp;
+        &nbsp;&nbsp;·&nbsp;&nbsp; -->
       {% endfor %}
+      <span title="Twitter"><a href="https://twitter.com/Alan_Matthews_" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a></span>
+        &nbsp;&nbsp;·&nbsp;&nbsp;
       <a href="/about/">About</a>
         &nbsp;&nbsp;·&nbsp;&nbsp;
       <a href="/portfolio/">Portfolio</a>

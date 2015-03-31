@@ -1,0 +1,145 @@
+---
+layout: default
+---
+
+  <div class="resume-image">
+    <div class="resume-teaser-image" {% if site.cover %}style="background-image: url(/images/tools.jpg)"{% endif %}>
+      Teaser Image
+    </div>
+  </div>
+  <script>
+    (function ($) {
+        "use strict";
+
+        $(document).ready(function(){
+
+            var $window = $(window),
+                $image = $('.resume-teaser-image');
+            $window.on('scroll', function() {
+                var top = $window.scrollTop();
+
+                if (top < 0 || top > 1500) { return; }
+                $image
+                    .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+                    .css('opacity', 1-Math.max(top/700, 0));
+            });
+            $window.trigger('scroll');
+
+        });
+
+    }(jQuery));
+  </script>
+
+  <div class="resume-title">
+    <h1>Resume</h1>
+  </div>
+  
+  <div class="resume-body">
+    <h3>Experience</h3>
+      <h4>The Iron Yard - Atlanta, GA</h4>
+        <p>
+        Web Development Bootcamp ­- Rails Engineering
+        </p>
+        <div class="job-icons">
+          <i class="fa fa-arrow-right"> Developed RESTful JSON API’s for projects and hackathons</i>
+          <i class="fa fa-arrow-right"> Developed Rails apps with Spotify and Etsy API integration</i>
+          <i class="fa fa-arrow-right"> MVC fundamentals utilizing the Camping framework</i>
+          <i class="fa fa-arrow-right"> Deployed project apps and API’s to Heroku</i>
+        </div>
+
+      <h4>Six Feet Under - Atlanta, GA</h4>
+        <p>
+        </p>
+        <div class="job-icons">
+          <i class="fa fa-arrow-right"> Bartender and lead server</i><br />
+          <i class="fa fa-arrow-right"> Assist with bar inventory</i><br />
+          <i class="fa fa-arrow-right"> Train new front of house (FOH) team members</i><br />
+          <i class="fa fa-arrow-right"> Strong prioritization and flexible time management</i>
+        </div>      
+
+      <h4>CVS Pharmacy - Jacksonville, FL</h4>
+        <p>
+        Pharmacy Technician
+        </p>
+        <div class="job-icons">
+          <i class="fa fa-arrow-right"> Managed patient database and responsible for data entry</i><br />
+          <i class="fa fa-arrow-right"> Trained new pharmacy team members</i><br />
+          <i class="fa fa-arrow-right"> Communicated between customers, insurance companies, and doctors</i><br />
+          <i class="fa fa-arrow-right"> Assisted pharmacist with monthly controlled drug inventory</i><br />
+          <i class="fa fa-arrow-right"> Performed daily and weekly prescription drug orders</i><br />
+          <i class="fa fa-arrow-right"> Organized prescription hard copies according to company standards and state law</i>
+        </div> 
+        <br />
+        <br />
+
+    <h3>Education</h3>
+      <h4>Full Sail University - Orlando, FL</h4>
+      <br />
+        <div class="job-icons">
+          <i class="fa fa-graduation-cap"> Associate of Science - Recording Arts</i><br />
+        </div> 
+      <h4>University of North Florida - Jacksonville, FL</h4>
+      <br />
+        <div class="job-icons">
+          <i class="fa fa-graduation-cap"> Bachelor of Science in Health - Health Science</i><br />
+        </div> 
+        <br />
+        <br />
+
+    <h3>Skills</h3>
+      <h4>Programming Languages - Tools</h4>
+      <p>
+        Intermediate
+      </p>
+        <div class="job-icons">
+          <i class="fa fa-laptop"> Ruby</i>&nbsp&nbsp 
+          <i class="fa fa-laptop"> Ruby On Rails</i>&nbsp&nbsp 
+          <i class="fa fa-code-fork"> Git</i>&nbsp&nbsp  
+          <i class="fa fa-github"> Github</i>&nbsp&nbsp  
+          <i class="fa fa-code"> Sublime Text</i>&nbsp&nbsp   
+          <i class="fa fa-terminal"> Unix CLI</i>&nbsp&nbsp   
+          <i class="fa fa-laptop"> Heroku</i>&nbsp   
+        </div> 
+      <p>
+        Familiar
+      </p>
+        <div class="job-icons">
+          <i class="fa fa-database"> SQLite</i>&nbsp&nbsp  
+          <i class="fa fa-database"> PostgreSQL</i>&nbsp&nbsp  
+          <i class="fa fa fa-html5"> HTML</i>&nbsp&nbsp  
+          <i class="fa fa-css3"> CSS</i>&nbsp&nbsp  
+          <i class="fa fa-laptop"> Javascript</i>&nbsp&nbsp  
+          <i class="fa fa-laptop"> jQuery</i>&nbsp&nbsp  
+          <i class="fa fa-laptop"> Ajax</i>&nbsp&nbsp
+          <br />
+          <br />
+          <i class="fa fa-laptop"> Bootstrap</i>&nbsp 
+        </div> 
+      <h4>Recording Software</h4>
+      <p>
+        Intermediate
+      </p>
+        <div class="job-icons">
+          <i class="fa fa-microphone"> Pro Tools</i>
+        </div> 
+      <p>
+        Familiar
+      </p>
+        <div class="job-icons">
+          <i class="fa fa-microphone"> Logic</i>&nbsp&nbsp  
+          <i class="fa fa-microphone"> Cubase</i>
+        </div> 
+
+  </div>
+
+  <div class="bottom-closer">
+    <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
+      Image
+    </div>
+    <div class="inner">
+      <h1 class="blog-title">{{ site.title }}</h1>
+      <h2 class="blog-description">{{ site.description }}</h2>
+      <a href="/portfolio/" class="btn">Back to Portfolio</a>
+      <a href="/" class="btn">Back to Overview</a>
+    </div>
+  </div>
