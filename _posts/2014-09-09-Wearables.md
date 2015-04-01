@@ -1,5 +1,5 @@
 ---
-image: /images/compin.jpg
+image: /images/geordi-la-forge.jpg
 layout: post
 title:  "Wearables: I'll Pass For Now"
 date:   2014-09-09 11:57PM

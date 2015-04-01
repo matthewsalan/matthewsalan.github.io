@@ -8,6 +8,7 @@ image: /images/IMG_0357.JPG
 ---
 
 Dear loyal readers,
+==================
 
 
 I need your help!  If you haven't heard the news yet, I'll be pursing a little career/life change in January.  A new year and new me will begin with <a href="http://theironyard.com">The Iron Yard</a> and their Rails Engineering program.  I am really excited about my new career/life and I can't wait to get started.   As I am sure you have read my <a href="http://alanmatthews.net/jekyll/update/2014/08/05/my-first-post.html"> previous blog post</a> about my first time going to The Iron Yard, I won't rehash too much.  <a href="http://alanmatthews.net/jekyll/update/2014/08/19/Wait-Pause.html">Unfortunately I had to withdraw from the course</a> due to personal reasons, but I am back for round two and better than ever!  I've spent a lot of time, and will continue, studying and getting prepared for school in January.  
