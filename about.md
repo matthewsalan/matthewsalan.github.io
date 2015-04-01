@@ -15,4 +15,4 @@ I moved to my current city, Atlanta, GA, back in 2010 and have been pursuing a c
 
 At the moment I am in the process of a career change.  I'm moving into the web development field and attending The Iron Yard (learning Ruby on Rails) here in Atlanta now.  After that, I'll keep you updated.  I would love an apprenticeship or mentorship after graduating!  I am super excited about this journey.  I've always loved tech and have used a computer since a young age.  Back then, computers were not very prevalent (fond memories of the Apple II go here...).  I was fortunate to attend an elementary school which had a big computer lab, and the Sega Genesis, Dreamcast, PS1 & 2, and Xbox 360 have been with me throughout!  Does that make me a jock/nerd?  I do love Star Trek and Star Wars, I even tried to play Magic at one point.
 
-In short, I am a: newbie web developer, bartender, Liverpool FC fan (YNWA!!), reformed recording engineer, lover of tech, brother, uncle, introvert, Scorpio, gym rat!
+TL;DR, I am a: newbie web developer, bartender, Liverpool FC fan (YNWA!!), reformed recording engineer, lover of tech, brother, uncle, introvert, Scorpio, gym rat!
