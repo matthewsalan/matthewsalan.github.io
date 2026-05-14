@@ -5,6 +5,7 @@ const btnResume = document.querySelector(".btn--resume");
 let currentNavItem = btnResume;
 const btnPortfolio = document.querySelector(".btn--portfolio");
 const btnUses = document.querySelector(".btn--uses");
+const navItems = [btnResume, btnPortfolio, btnUses];
 
 // Selectors - Containers
 const resumeContainer = document.querySelector(".resume--container");
@@ -48,14 +49,45 @@ btnUses.addEventListener("click", function (e) {
     usesContainer.scrollIntoView({ behavior: "smooth" });
 });
 
+navItems.forEach((item, index) => {
+  item.addEventListener("keydown", function (e) {
+    let nextIndex;
+
+    switch (e.key) {
+      case "ArrowRight":
+        nextIndex = (index + 1) % navItems.length;
+        break;
+      case "ArrowLeft":
+        nextIndex = (index - 1 + navItems.length) % navItems.length;
+        break;
+      case "Home":
+        nextIndex = 0;
+        break;
+      case "End":
+        nextIndex = navItems.length - 1;
+        break;
+      default:
+        return;
+    }
+
+    e.preventDefault();
+    navItems[nextIndex].focus();
+    navItems[nextIndex].click();
+  });
+});
+
 // Functions
 function _toggleNavStyles(target) {
+  const isSelected = target.getAttribute("aria-selected") === "true";
+
   target.classList.toggle("bg-gray-100");
   target.classList.toggle("text-blue-600");
   target.classList.toggle("cursor-default");
   target.classList.toggle("hover:cursor-pointer");
   target.classList.toggle("hover:text-blue-600");
   target.classList.toggle("hover:bg-gray-100");
+  target.setAttribute("aria-selected", String(!isSelected));
+  target.setAttribute("tabindex", isSelected ? "-1" : "0");
 }
 
 function _toggleSection(target) {
